@@ -15,9 +15,7 @@ var Segment = require('../lib/');
 describe('Segment.io', function() {
   var segment;
   var analytics;
-  var options = {
-    apiKey: 'oq0vdlg7yi'
-  };
+  var options;
 
   before(function() {
     // Just to make sure that `cookie()`
@@ -27,6 +25,7 @@ describe('Segment.io', function() {
   });
 
   beforeEach(function() {
+    options = { apiKey: 'oq0vdlg7yi' };
     protocol.reset();
     analytics = new Analytics();
     segment = new Segment(options);
