@@ -1,7 +1,7 @@
 {
-  "name": "analytics.js-integration-segmentio",
-  "repo": "segment-integrations/analytics.js-integration-segmentio",
-  "description": "The Segmentio analytics.js integration.",
+  "name": "analytics.js-integration-anyhost",
+  "repo": "tomako/analytics.js-integration-anyhost",
+  "description": "Integration for analytics.js - Allow to send analytics data to any host.",
   "version": "1.0.7",
   "license": "MIT",
   "main": "lib/index.js",
